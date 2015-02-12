@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HoboChess">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="369.0" prefWidth="450.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <GridPane fx:id="gridPane" layoutX="150.0" layoutY="110.0" prefHeight="150.0" prefWidth="150.0">
+            </GridPane>
+            <Label fx:id="systemOut" alignment="CENTER" layoutX="190.0" layoutY="271.0" prefHeight="17.0" prefWidth="70.0" text="Hobo Chess" />
+            <Button  onAction="#newGame" layoutX="186.0" layoutY="43.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="78.0" text="New game" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
